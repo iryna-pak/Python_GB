@@ -35,7 +35,13 @@ openFile1 = open("Task_2.txt", "r", encoding="utf-8")
 
 allStrings = openFile1.readlines()
 print(f"Count strings: {len(allStrings)}.")
+"""
+КОММЕНТАРИЙ УЧИТЕЛЯ!
+Задача 2. Возможно (я не настаиваю) метод enumerate облегчил бы создание вот этой записи
 
+for i in range(len(allStrings)):
+print(f"String {i} contains {len(allStrings[i].split())} words")
+"""
 for i in range(len(allStrings)):
     print(f"String {i} contains {len(allStrings[i].split())} words")
 

@@ -22,3 +22,7 @@ while True:
         print("Нельзя делить на ноль")
     except ValueError:
         print("Нельзя буквенные симфолы")
+
+
+# raise DivisionNull() достаточно сделать так. коммент учителя
+
